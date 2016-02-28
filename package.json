@@ -4,7 +4,9 @@
   "description": "x",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --outFile ./js/app.js -m commonjs -t es5 app.ts",
+    "watch": "tsc --outFile ./js/app.js -m commonjs -t es5 --watch app.ts"
   },
   "author": "",
   "license": "MIT"
