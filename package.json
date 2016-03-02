@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "x",
   "main": "build.js",
-  "scripts": {
-  },
+  "scripts": {},
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
 }
